@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang = "pt-br">
+
+
+ <meta charset = "UTF-8"/>
+  <link rel = "stylesheet" type="text/css" href = "cobra.css"/>
+ 
+ <body id = "FundoRank">
+
+       <div id = "Rank">
+
+      <fieldset id = "RankFundo">
+
+        <legend>Ranking</legend>
+
+     <script>
+     	
+     var arrayRanking = JSON.parse(localStorage.getItem("ranking")) || [];
+
+
+     arrayRanking.sort((x,y)=> y.Pontos - x.Pontos);
+
+     arrayRanking.splice(10) 
+
+    for(var i = 0; i >= 0 ; i++){
+ 
+
+ document.write("Nome: " + arrayRanking[i].Nome + " - Pontos: " + arrayRanking[i].Pontos + "<br>")
+
+         }
+
+
+
+     </script>
+
+
+     </fieldset>
+
+   </div>
+
+</body>
+
+

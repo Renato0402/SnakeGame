@@ -1,0 +1,246 @@
+
+
+#tempo{
+
+    font : bold 50px Arial;
+	color:#fff;
+
+
+}
+
+#fundovida{
+
+    border:2px solid #000;
+	width:200px;
+	height:20px;
+	background-color:#fff
+	
+}
+
+#barravida{
+    
+	width:200px;
+	height:20px;
+	background-color:#f00;
+	
+}
+
+#fundobonus{
+
+	border:2px solid #000;
+	width:200px;
+	height:20px;
+	background-color:#fff
+
+
+}
+
+#barrabonus{
+
+	width:40px;
+	height:20px;
+	background-color:#00BFFF
+}
+
+
+.explode{
+
+	width:20px
+	height:20px;
+	position:absolute;
+}
+
+
+.Gameover{
+
+	width:820px;
+	height:820px;
+	position:absolute;
+}
+
+.vitoria{
+
+	width:820px; 
+	height:820px;
+	position:absolute;
+}
+
+.textos{
+
+    color:white;
+    font:bold 16px monospace;
+    width:40%; 
+    margin:100px auto;
+    margin-top: 220px;
+    margin-left: 350px;
+    background-image:url("menu2.jpg");
+    background-size: 100% 100%;
+    padding: 30px;
+}
+
+
+body{
+
+	background-image:url("FundoGeral.jpg");
+	background-size: 100% 130%;
+}
+
+
+
+#cor{
+
+	color:#fff;
+}
+
+#botao{
+
+    color:white;
+    height:25px;
+ 	background-image:url(FundoBotao.jpg);
+	background-size: 100% 100%;
+	border-radius: 15px;
+	border-color: white;
+}
+
+#Pontuacao{
+  
+
+  position:absolute;
+  top:460px; 
+  left:850px;
+
+}
+
+
+#Pontos{
+
+	font : bold 35px Arial;
+	color:#fff;
+	position:absolute;
+	top: 19px;
+	left: 145px;
+}
+
+#Pontuacao_jogador2{
+  
+
+  position:absolute;
+  top:520px; 
+  left:850px;
+
+}
+
+
+#Pontos_jogador2{
+
+	font : bold 35px Arial;
+	color:#fff;
+	position:absolute;
+	top: 19px;
+	left: 145px;
+}
+
+
+#PosicaoVida{
+
+  position:absolute;
+  top:0px; 
+  left:400px;
+
+
+}
+
+#fundovida2{
+
+    border:2px solid #000;
+	width:200px;
+	height:20px;
+	background-color:#fff;
+	position:absolute;
+    top:80px;
+    left:400px;
+	
+}
+
+#barravida2{
+    
+	width:200px;
+	height:20px;
+	background-color:#f00;
+
+	
+}
+
+#PosicaoBonus{
+
+  position:absolute;
+  top:106px; 
+  left:400px;
+
+}
+
+
+#fundobonus2{
+
+	border:2px solid #000;
+	width:200px;
+	height:20px;
+	background-color:#fff;
+	position: absolute;
+    top:180px;
+    left:400px;
+
+
+}
+
+#barrabonus2{
+
+	width:40px;
+	height:20px;
+	background-color:#00BFFF;
+}
+
+#PontuacaoNV1{
+
+   position:absolute;
+   top:10px;
+   left:840px;
+}
+
+
+#PontosNV1{
+   
+   font: bold 35px Arial;
+   color:#fff;
+   position:absolute;
+   top:19px;
+   left:145px;
+}
+
+
+#Rank{
+	font:bold 35px Arial;
+	color:white;
+    display: flex;
+	flex-direction:column;
+    align-items:center;
+}
+
+#RankFundo{
+
+	background-image: linear-gradient(to left,#52c234,#061700);
+	width:500px;
+	background-size: 100% 100%;
+}
+
+#FundoRank{
+
+	background-image:url(FundoBotao.jpg) ;
+	background-size:100% 100%;
+}
+
+#FundoLvL1{
+    
+    background-image:url(FundoBotao.jpg); 
+	background-size:100% 100%; 
+}
